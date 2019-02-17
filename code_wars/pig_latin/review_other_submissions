@@ -1,0 +1,8 @@
+def pig_it(text):
+    lst = text.split()
+    return ' '.join( [word[1:] + word[:1] + 'ay' if word.isalpha() else word for word in lst])
+
+## default of split() is by spaces
+## isalpha() looks for punct
+## same use of slices as me
+## avoids import of re
