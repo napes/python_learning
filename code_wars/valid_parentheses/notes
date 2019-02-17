@@ -1,0 +1,7 @@
+number of ) == number of (
+
+however, also need to be in right order. ))(( is invalid
+
+if there is ever a ) before a ( it's invalid, there is a max set by (
+
+logic should add open brackets up and set max, break if it ever goes over max
