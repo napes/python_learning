@@ -1,0 +1,26 @@
+examples:
+
+differenatiate("12x+2", 3)      ==>   returns 12
+differenatiate("x^2+3x+2", 3)   ==>   returns 9
+
+2x+3
+
+point is value to use for x in evaluation
+
+2 step process:
+    1) differentiate
+    2) plug in x and evaluate
+
+
+assumptions not in the docs:
+    1) only addition and subtraction
+    2) only using variable x
+
+
+https://www.geeksforgeeks.org/eval-in-python/
+
+eval() will evaluate python within itself
+
+in python 2x doesnt evaluate, but 2*x does
+
+for evaluation: 2x -> 2*x; x^2 -> x**2
